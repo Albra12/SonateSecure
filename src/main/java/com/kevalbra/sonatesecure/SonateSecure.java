@@ -1,7 +1,7 @@
 package com.kevalbra.sonatesecure;
 
 import com.cthiebaud.passwordvalidator.*;
-import java.util.Scanner;
+
 
 /**
  * Password Validator with user input for SonateSecure.
@@ -12,7 +12,6 @@ public class SonateSecure implements PasswordValidator {
     private static final String SPECIAL_CHARACTER_REGEX = ".*[!@#$%^&*(),.?\":{}|<>].*";
     private static final String TEACHER_INSTAGRAM = "cthiebaud";
 
-    @Override
     public ValidationResult validate(String password) {
         if (password == null || password.isEmpty()) {
             return new ValidationResult(false, "Password cannot be null or empty.");
@@ -45,27 +44,5 @@ public class SonateSecure implements PasswordValidator {
         }
 
         return new ValidationResult(true, "Password is valid.");
-    }
-
-    /**
-     * Main method to take user input and validate the password.
-     */
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        SonateSecure validator = new SonateSecure();
-
-        System.out.println("Welcome to SonateSecure Password Validator!");
-        System.out.println("Please enter your password for validation:");
-
-        String password = scanner.nextLine();
-        ValidationResult result = validator.validate(password);
-
-        if (result.isValid()) {
-            System.out.println("Success: " + result.getMessage());
-        } else {
-            System.out.println("Error: " + result.getMessage());
-        }
-
-        scanner.close();
     }
 }
