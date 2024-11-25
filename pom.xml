@@ -8,6 +8,24 @@
     <artifactId>sonatesecure</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <developers>
+        <developer>
+            <id>kevalbra</id>
+            <name>Kevin Christian Albrandt</name>
+            <email>kev.albrandt.24@heilbronn.dhbw.de</email>
+        </developer>
+        <developer>
+            <id>vincents269</id>
+            <name>Vincent Scheibe</name>
+            <email>vin.scheibe.24@heilbronn.dhbw.de</email>
+        </developer>
+        <developer>
+            <id>Markus19041</id>
+            <name>Markus Ehnle</name>
+            <email>mar.ehnle.24@heilbronn.dhbw.de</email>
+        </developer>
+    </developers>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>23</java.version>
