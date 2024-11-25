@@ -13,16 +13,19 @@
             <id>kevalbra</id>
             <name>Kevin Christian Albrandt</name>
             <email>kev.albrandt.24@heilbronn.dhbw.de</email>
+            <url>https://github.com/kevalbra</url>
         </developer>
         <developer>
             <id>vincents269</id>
             <name>Vincent Scheibe</name>
             <email>vin.scheibe.24@heilbronn.dhbw.de</email>
+            <url>https://github.com/vincents269</url>
         </developer>
         <developer>
             <id>Markus19041</id>
             <name>Markus Ehnle</name>
             <email>mar.ehnle.24@heilbronn.dhbw.de</email>
+            <url>https://github.com/markus19041</url>
         </developer>
     </developers>
 
