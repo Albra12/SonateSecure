@@ -42,21 +42,21 @@ To install and run the project, follow these steps:
 
     ````sh
     mvn clean install
-    ```
+
 
 3. **Build the project:**
 Compile and package the project using Maven:
 
     ````sh
     mvn package
-    ```
+
 
 4. **Run the application:**
 After packaging, you can run the application using the following command: 
 
    ````sh
    java -jar password-validator-1.0.0-20241121.173543-6.jar target/password_validator-1.0-SNAPSHOT.jar
-   ```
+   
 
 5. **Run the tests:**
 To run the unit tests, use the following command:
